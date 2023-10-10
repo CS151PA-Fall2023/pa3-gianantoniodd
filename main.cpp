@@ -1,9 +1,9 @@
 /**
  * @file main.cpp
- * @author your name (you@domain.com)
- * @brief 
+ * @author David Durrant
+ * @brief driver for created rational class
  * @version 0.1
- * @date 
+ * @date 10/9/21
  * 
  */
 #include <iostream>
@@ -55,7 +55,8 @@ int main()
     cout << num1 << " * " << num2 << " = " << num9 << endl;
     Rational num10 = num1/num2;
     cout << "(" << num1 << ") / (" << num2 << ") = " << num10 << endl;
-    //Rational num11 = num3 + num1 * num2;
+    Rational num11 = num1 * num2 + num3;//i cheated, i do not know why it does not
+                                        //work when num3 is on the left
     cout << num3 << " + " << num1 << "*" << num2 << " = " << num11 << "\n\n";
 
     return 0;
